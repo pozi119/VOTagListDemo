@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E5FF9FA1AA0613C00FEBA5C /* VOTagList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5FF9F91AA0613C00FEBA5C /* VOTagList.m */; };
 		3E6B87911A539F000020BEFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6B87901A539F000020BEFA /* main.m */; };
 		3E6B87941A539F000020BEFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6B87931A539F000020BEFA /* AppDelegate.m */; };
 		3E6B87971A539F000020BEFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6B87961A539F000020BEFA /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E5FF9F81AA0613C00FEBA5C /* VOTagList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOTagList.h; sourceTree = "<group>"; };
+		3E5FF9F91AA0613C00FEBA5C /* VOTagList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOTagList.m; sourceTree = "<group>"; };
 		3E6B878B1A539F000020BEFA /* VOTagListDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VOTagListDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E6B878F1A539F000020BEFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E6B87901A539F000020BEFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +63,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E5FF9F71AA0613C00FEBA5C /* VOTagList */ = {
+			isa = PBXGroup;
+			children = (
+				3E5FF9F81AA0613C00FEBA5C /* VOTagList.h */,
+				3E5FF9F91AA0613C00FEBA5C /* VOTagList.m */,
+			);
+			path = VOTagList;
+			sourceTree = "<group>";
+		};
 		3E6B87821A539F000020BEFA = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +93,7 @@
 		3E6B878D1A539F000020BEFA /* VOTagListDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3E5FF9F71AA0613C00FEBA5C /* VOTagList */,
 				3E6B87921A539F000020BEFA /* AppDelegate.h */,
 				3E6B87931A539F000020BEFA /* AppDelegate.m */,
 				3E6B87951A539F000020BEFA /* ViewController.h */,
@@ -222,6 +235,7 @@
 				3E6B87971A539F000020BEFA /* ViewController.m in Sources */,
 				3E6B87941A539F000020BEFA /* AppDelegate.m in Sources */,
 				3E6B87911A539F000020BEFA /* main.m in Sources */,
+				3E5FF9FA1AA0613C00FEBA5C /* VOTagList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +428,7 @@
 				3E6B87B01A539F000020BEFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E6B87B11A539F000020BEFA /* Build configuration list for PBXNativeTarget "VOTagListDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +437,7 @@
 				3E6B87B31A539F000020BEFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
